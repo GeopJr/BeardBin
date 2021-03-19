@@ -1,0 +1,23 @@
+name: beardbin
+version: 0.1.0
+
+authors:
+  - Evangelos Paterakis <evan@geopjr.dev>
+
+targets:
+  beardbin:
+    main: src/beardbin.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  cryomongo:
+    github: elbywan/cryomongo
+  dotenv:
+    github: gdotdesign/cr-dotenv
+  uuix:
+    github: krthr/uuix
+
+crystal: 0.36.1
+
+license: MIT
