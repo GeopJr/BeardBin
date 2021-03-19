@@ -1,0 +1,10 @@
+/docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+.env
+/public/
+
+/frontend/dist/
+/frontend/node_modules/
