@@ -35,12 +35,7 @@ export default {
     },
   },
   data: () => ({
-    words: [
-      "has Zero-Knowledge",
-      "is Encrypted",
-      "is a Text/Code sharing project",
-      "is written in Crystal",
-    ],
+    words: ["has Zero-Knowledge", "is Encrypted", "is written in Crystal"],
     tmp: 0,
   }),
 };
@@ -53,15 +48,18 @@ export default {
 }
 
 #loop > span {
-  animation: change_opacity 1.5s infinite alternate;
+  animation: change_underline 3.5s infinite alternate;
+  text-decoration: underline;
+  text-decoration-color: var(--v-accent-base);
+  text-decoration-thickness: 2px;
 }
 
-@keyframes change_opacity {
+@keyframes change_underline {
   0% {
-    opacity: 0;
+    text-decoration-style: dashed;
   }
   100% {
-    opacity: 1;
+    text-decoration-style: solid;
   }
 }
 </style>
