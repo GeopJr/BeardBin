@@ -158,10 +158,7 @@ export default {
         uuid: this.$store.state.routeID,
       });
 
-      const response = await fetch(
-        "/retrieve",
-        requestOptions
-      );
+      const response = await fetch("/retrieve", requestOptions);
 
       const data = await response.json();
       if (response.status !== 200) {
@@ -179,10 +176,7 @@ export default {
       const body = payload;
       const requestOptions = this.createRequestOptions(body);
 
-      const response = await fetch(
-        "/create",
-        requestOptions
-      );
+      const response = await fetch("/create", requestOptions);
 
       const data = await response.json();
       if (response.status !== 200) {
@@ -216,10 +210,7 @@ export default {
         delete_id: this.$store.state.deleteId,
       });
 
-      const response = await fetch(
-        "/delete",
-        requestOptions
-      );
+      const response = await fetch("/delete", requestOptions);
 
       const data = await response.json();
       if (response.status !== 200) {
@@ -284,6 +275,11 @@ export default {
         );
         customPass = true;
       }
+
+      this.$store.commit("updateState", {
+        state: "buttonsDisabled",
+        value: true,
+      });
 
       return {
         content: encryptedContent.toString(),
