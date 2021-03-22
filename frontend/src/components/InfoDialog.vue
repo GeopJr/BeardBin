@@ -7,6 +7,7 @@
       <v-card-text class="pa-12"
         ><span v-if="info.url.length > 0">Bin URL: </span>
         <a
+          :href="info.url"
           :onClick="
             'window.location.href = `' + info.url + '`;location.reload()'
           "
