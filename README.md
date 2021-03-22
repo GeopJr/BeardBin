@@ -61,6 +61,8 @@ During dev you might need to change some frontend urls to match the backend's po
 
 The frontend uses vue cli.
 
+After building frontend, place the generated files in `public/`.
+
 Make sure to fill and rename `.env.example` to `.env`.
 
 <a href="https://github.com/GeopJr/BeardBin/graphs/contributors">
