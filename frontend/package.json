@@ -12,7 +12,7 @@
     "crypto-js": "^4.0.0",
     "highlight.js": "^10.7.3",
     "qrcode": "^1.4.4",
-    "secure-random-password": "^0.2.2",
+    "secure-random-password": "^0.2.3",
     "vue": "^2.6.14",
     "vue-highlight.js": "^4.0.1-beta",
     "vue-router": "^3.2.0",
