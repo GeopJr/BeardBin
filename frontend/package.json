@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "3.18.2",
     "crypto-js": "4.1.1",
-    "highlight.js": "10.7.3",
+    "highlight.js": "11.2.0",
     "qrcode": "1.4.4",
     "secure-random-password": "0.2.3",
     "vue": "2.6.14",
