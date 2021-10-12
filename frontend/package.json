@@ -16,7 +16,7 @@
     "vue": "2.6.14",
     "vue-highlight.js": "4.0.1-beta",
     "vue-router": "3.5.2",
-    "vuetify": "2.5.9",
+    "vuetify": "2.5.10",
     "vuex": "3.6.2"
   },
   "devDependencies": {
