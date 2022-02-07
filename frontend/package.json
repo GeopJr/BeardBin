@@ -13,11 +13,11 @@
     "highlight.js": "11.4.0",
     "qrcode": "1.5.0",
     "secure-random-password": "0.2.3",
-    "vue": "2.6.14",
+    "vue": "3.2.30",
     "vue-highlight.js": "4.0.1-beta",
-    "vue-router": "3.5.3",
+    "vue-router": "4.0.12",
     "vuetify": "2.6.3",
-    "vuex": "3.6.2"
+    "vuex": "4.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "4.5.15",
